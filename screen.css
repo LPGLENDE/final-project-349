@@ -1,4 +1,33 @@
 /* Add screen styles below */
+.montserrat-font {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+  }
+
 a.active {
     font-weight: bold;
+}
+
+body {
+    background-color: #EBD5B3;
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+}
+
+header {
+    font-family: "Montserrat", serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
 }
