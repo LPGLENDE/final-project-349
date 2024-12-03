@@ -6,12 +6,8 @@
     font-style: normal;
   }
 
-a.active {
-    font-weight: bold;
-}
-
 body {
-    background-color: #EBD5B3;
+    background-color:#f8edd6;
     font-family: "Montserrat", serif;
     font-size: 14px;
 }
