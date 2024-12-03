@@ -1,2 +1,4 @@
-# boilerplate
-Basic HTML and CSS setup for simple web design
+Repo for my Final Project, an information website on myself.
+Site Focuses on my Hobbies and on my Work/Educational Experiences
+
+Using Jsiarto Boilerplate as most basic template
