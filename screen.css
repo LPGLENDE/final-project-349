@@ -16,22 +16,25 @@ header {
     padding-bottom: 10px;
     padding-top: 5px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 0px;
     border-radius: 5px;
     position: sticky;
     top: 0;
     border-bottom: solid 5px #60b6e9;
     margin-bottom: 20px;
     margin-top: 0px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 body {
     font-family: "Montserrat", serif;
     padding: 10px;
 }
-
 .post {
     border-bottom: #60b6e9 solid 5px;
+    line-height: 2em;
 }
 
 main {
@@ -42,6 +45,9 @@ main {
 
 h1 {
     font-size: 40px;
+    padding-left: 25px;
+    margin: 10px;
+    display: flex;
 }
 
 h2 {
@@ -60,4 +66,80 @@ h2 {
 #hobbies {
     display: flex;
     flex-direction: column;
+}
+
+.galestv {
+    float: right;
+    margin-left: 5px;
+    border-radius: 20px;
+
+}
+
+.louhas {
+    float: inline-start;
+    width: 500px;
+    margin-right: 5px;
+
+}
+
+img {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.mll {
+    float: inline-end;
+    width: 350px;
+    margin-left: 10px;
+    flex: auto;
+}
+
+.peak {
+    width: 350px;
+    float: inline-end;
+    flex: auto;
+}
+
+.lego-shelf {
+    flex: auto;
+    width: 400px;
+    float: inline-start;
+    margin-right: 10px;
+    align-self: auto;
+}
+
+.loynorrix {
+    width: 450px;
+    float: inline-start;
+    flex: auto;
+    margin-right: 10px;
+}
+
+#navbar {
+    display: flex;
+    flex: 1;
+}
+
+#navbar ul {
+    position: absolute;
+    right: 10px;
+}
+
+#navbar li {
+    display: inline;
+    padding: 10px;
+}
+
+#navbar li a {
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+#navbar li a:hover {
+    color: #eeeeee;
 }
